@@ -111,7 +111,7 @@ end
 if enable == true then
 blurefct(0)
 print("Using " .. remote.Name)
-Notify("Destructed Hex", "Loaded", 10)
+Notify("Destructed Hex", "Commands: 011_luq & UI: awtch", 10)
 local destruct = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -206,7 +206,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.292307675, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 134, 0, 25)
 TextLabel.Font = Enum.Font.Roboto
-TextLabel.Text = "Destructed_Hex's GUI\n[Commands: 011_luq & UI: awtch]"
+TextLabel.Text = "Destructed_Hex's GUI"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 17.000
 
